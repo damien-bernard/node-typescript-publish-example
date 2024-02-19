@@ -1,0 +1,1 @@
+# node-typescript-publish-example
