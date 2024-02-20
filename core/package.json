@@ -1,18 +1,21 @@
 {
   "name": "@damnard/node-typescript-publish-example-core",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Exemple de publication d'application Node.js avec TypeScript",
   "type": "module",
   "exports": {
     ".": {
       "import": "./dist/index.js",
       "types": "./dist/index.d.ts"
+    },
+    "./default": {
+      "import": "./dist/default.js",
+      "types": "./dist/default.d.ts"
     }
   },
   "scripts": {
     "clean": "tsc --build --clean",
     "build": "tsc --build",
-    "start": "node dist/index.js",
     "fix": "eslint --fix src/**/*.ts && prettier .. --write",
     "lint": "eslint src/**/*.ts"
   },
