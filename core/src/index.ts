@@ -1,3 +1,3 @@
 export function print(message: string): void {
-  console.log(message)
+  console.log(`export function: ${message}`)
 }

@@ -1,6 +1,6 @@
 {
   "name": "@damnard/node-typescript-publish-example-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Exemple de publication d'application Node.js avec TypeScript",
   "type": "module",
   "exports": {
@@ -35,7 +35,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@damnard/node-typescript-publish-example-core": "^0.0.1"
+    "@damnard/node-typescript-publish-example-core": "^0.0.2"
   },
   "devDependencies": {
     "@types/node": "^20.11.5",
