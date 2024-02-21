@@ -1,16 +1,20 @@
 {
   "name": "@damnard/node-typescript-publish-example-core",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Exemple de publication d'application Node.js avec TypeScript",
   "type": "module",
   "exports": {
-    ".": {
-      "import": "./dist/index.js",
-      "types": "./dist/index.d.ts"
+    "./export-function": {
+      "import": "./dist/export-function.js",
+      "types": "./dist/export-function.d.ts"
     },
-    "./default": {
-      "import": "./dist/default.js",
-      "types": "./dist/default.d.ts"
+    "./export-default-function": {
+      "import": "./dist/export-default-function.js",
+      "types": "./dist/export-default-function.d.ts"
+    },
+    "./export-const": {
+      "import": "./dist/export-const.js",
+      "types": "./dist/export-const.d.ts"
     }
   },
   "scripts": {
